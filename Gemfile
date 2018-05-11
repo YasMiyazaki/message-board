@@ -57,3 +57,8 @@ gem 'kaminari'
 
 # Lesson 9-15-4
 gem 'pry-byebug', group: :development
+
+# Lesson 11-5-4
+group :production do
+  gem 'pg', '0.21.0'
+end
